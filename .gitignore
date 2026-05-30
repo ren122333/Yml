@@ -1,0 +1,15 @@
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.pdb
+Debug/
+Release/
+.vs/
+build/
+
+# Общее
+.DS_Store
+*.log
+*.tmp
