@@ -15,3 +15,8 @@ jobs:
       run: gcc -o program.exe AllEven.c
     - name: Run
       run: ./program.exe
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: program-windows.exe
+        path: program.exe
